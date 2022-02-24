@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shaun-1 {
+  width: 100%;
+}
+
+.header-words {
+  padding: 0px 70px 0px 0px;
+}
+
+#small-face {
+  width: 3%;
+  height: auto;
+  border-radius: 15px;
+}
