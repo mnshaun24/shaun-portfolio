@@ -1,23 +1,37 @@
 import React from "react";
-import photo from "../../assets/projects/beyond-the-peak.png";
 
-function Projects(props) {
-    const myProjects = {
-        name: "Beyond the Peak",
-        description:
-            "Full-Stack"
-    };
+function Projects() {
+    const myProjects = [
+        {
+            name: "Beyond the Peak",
+            description: "Random drink generator"
+          },
+          {
+            name: "Just Tech It",
+            description: "Simple tech blog"
+          },
+          {
+            name: "Memeify",
+            description: "Meme generator"
+          },
+          {
+            name: "Biz Notes",
+            description: "Note taker in readme format"
+          },
+          {
+            name: "EZ Reader",
+            description: "Readme generator for coding projects"
+          },
+          {
+            name: "Make A Date Planner",
+            description: "Daily planner used for organization"
+          }
+    ]
+
     return ( 
         <section id="projects">
             <h1>{myProjects.name}</h1>
-            <p>{myProjects.name}</p>
-            <div>
-                <img 
-                    src={photo} 
-                    alt="drink generator project"
-                    className="img-display mx-1"
-                    />
-            </div>
+            <p>{myProjects.description}</p>
         </section>
     );
 }
