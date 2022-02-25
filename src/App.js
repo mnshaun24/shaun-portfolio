@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
 import About from './components/About';
+import Contact from './components/Contact';
 import Header from './components/Header';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -9,9 +12,9 @@ function App() {
       <Header></Header>
       <main>
         <About></About>
-        {/* <Component1>}
-        {/* Component2 */}
-        {/* Component3 */}
+        <Projects></Projects>
+        <Resume></Resume>
+        <Contact></Contact>
       </main>
 
     </div>

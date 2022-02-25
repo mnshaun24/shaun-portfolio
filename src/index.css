@@ -30,3 +30,14 @@ code {
   height: auto;
   border-radius: 15px;
 }
+
+.img-display {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+
+}
+
+.mx-1 {
+  margin: 0 10px 0 10px;
+}
