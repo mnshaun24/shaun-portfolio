@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
-import Contact from './components/Contact';
 import Header from './components/Header';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
+import Page from "./components/Page";
 
 function App() {
+  const [pages] = useState([
+    "About",
+    "Projects",
+    "Resume",
+    "Contact"
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
+  
   return (
     <div>
-      <Header></Header>
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} pages={pages} />
       <main>
-        <About></About>
-        <Projects></Projects>
-        <Resume></Resume>
-        <Contact></Contact>
+      <Page currentPage={currentPage} />
       </main>
 
     </div>

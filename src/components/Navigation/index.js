@@ -1,6 +1,6 @@
 import React, {useState } from "react";
 
-function Nav({ navLinks }) {
+function Nav({ navLinks, setCurrentPage }) {
 
   return (
     <nav>
@@ -8,7 +8,8 @@ function Nav({ navLinks }) {
         {navLinks.map((link) => {
           return (
             <li className="header-words">
-              <a href={`#${link.split(" ")[0].toLowerCase()}`}>{link}</a>
+              <span onClick={() => setCurrentPage(link)}>{link}</span>
+              {/* <a href={`#${link.split(" ")[0].toLowerCase()}`}>{link}</a> */}
             </li>
           );
         })}
