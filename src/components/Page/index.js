@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import About from "../About";
 import Projects from "../Projects";
 import Resume from "../Resume";
 import Contact from "../Contact";
+import Home from "../Home";
 
 function Page(props) {
     
 
     const renderedPage = () => {
         switch(props.currentPage) {
+            case "Home":
+                return <Home />
             case "About":
               return <About />
             case "Projects":
@@ -18,7 +21,7 @@ function Page(props) {
             case "Contact":
                 return <Contact />
             default:
-              return <About />
+              return <Home />
           }
 
     }

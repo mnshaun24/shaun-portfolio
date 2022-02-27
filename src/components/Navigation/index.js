@@ -1,21 +1,21 @@
-import React, {useState } from "react";
+import React from "react";
+import Nav from 'react-bootstrap/Nav';
 
-function Nav({ navLinks, setCurrentPage }) {
+function Navi({ navLinks, setCurrentPage }) {
 
   return (
-    <nav>
-      <ul className="flex-row">
-        {navLinks.map((link) => {
-          return (
-            <li className="header-words">
-              <span onClick={() => setCurrentPage(link)}>{link}</span>
-              {/* <a href={`#${link.split(" ")[0].toLowerCase()}`}>{link}</a> */}
-            </li>
-          );
-        })}
-      </ul>
-    </nav>
+    <container>
+        <div id="header" className="nav justify-content-end">
+          {navLinks.map((link) => {
+            return (
+              <Nav.Item>
+                <Nav.Link eventKey={link} onClick={() => setCurrentPage(link)}>{link}</Nav.Link>
+              </Nav.Item>
+            );
+          })}
+        </div>
+    </container>
   );
 }
 
-export default Nav;
+export default Navi;

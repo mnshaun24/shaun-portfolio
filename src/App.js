@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
-import About from './components/About';
 import Header from './components/Header';
 import Page from "./components/Page";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [pages] = useState([
+    "Home",
     "About",
     "Projects",
     "Resume",
