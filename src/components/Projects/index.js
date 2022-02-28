@@ -1,6 +1,5 @@
 import React from "react";
-import Peak from "../ProjectList";
-import bootstrap from "bootstrap";
+import ProjectUse from "../ProjectList";
 
 function Projects() {
     const myProjects = [
@@ -45,7 +44,7 @@ function Projects() {
         myProjects.map(eachProject => {
             return (
                 <section>
-                    <Peak project={eachProject}/>
+                    <ProjectUse project={eachProject}/>
                 </section>
             )
         })
