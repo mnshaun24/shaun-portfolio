@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Page from "./components/Page";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [pages] = useState([
@@ -17,7 +16,7 @@ function App() {
 
   
   return (
-    <div>
+    <div className='text-blue-600'>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} pages={pages} />
       <main>
       <Page currentPage={currentPage} />

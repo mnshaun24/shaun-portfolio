@@ -3,8 +3,8 @@ import React from "react";
 function Home() {
 
   return (
-      <section>
-          This is homepage
+      <section className="text-xl text-blue-600">
+        <p>This is homepage</p>
       </section>
   );
 }
