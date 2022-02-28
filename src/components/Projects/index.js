@@ -1,6 +1,5 @@
 import React from "react";
 import Peak from "../ProjectList";
-import bootstrap from "bootstrap";
 
 function Projects() {
     const myProjects = [
