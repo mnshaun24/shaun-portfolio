@@ -4,7 +4,7 @@ function Navi({ navLinks, setCurrentPage }) {
 
   return (
     <container>
-        <div>
+        <div className="space-x-4">
           {navLinks.map((link) => {
             return (
                 <span eventKey={link} onClick={() => setCurrentPage(link)}>{link}</span>

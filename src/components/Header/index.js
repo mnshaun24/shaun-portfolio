@@ -5,7 +5,7 @@ function Header(props) {
     const { setCurrentPage, pages } = props;
 
     return (
-        <header>
+        <header className="text-secondary bg-primary justify-end h-20">
             <Navi navLinks={pages} setCurrentPage={setCurrentPage} />
         </header>
     );

@@ -16,7 +16,7 @@ function App() {
 
   
   return (
-    <div className='text-blue-600'>
+    <div>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} pages={pages} />
       <main>
       <Page currentPage={currentPage} />
