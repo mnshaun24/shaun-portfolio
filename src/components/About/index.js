@@ -5,7 +5,7 @@ function About() {
     return (
         <section>
             <h1>About Shaun</h1>
-            <img src={coverImage} style={{ width: "100%"  }} alt="cover" />
+            <img src={coverImage} alt="cover" />
         </section>
     );
 }
