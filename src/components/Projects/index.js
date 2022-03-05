@@ -41,14 +41,21 @@ function Projects() {
     ]
 
       return (
-        <div className="container grid grid-cols-2">
-          <img src={require(`../../assets/projects/${myProjects[0].name}`)} alt="testing" key={myProjects[0].name} />
-          <img src={require(`../../assets/projects/${myProjects[1].name}`)} alt="testing" key={myProjects[1].name}/>
-          <img src={require(`../../assets/projects/${myProjects[2].name}`)} alt="testing" key={myProjects[2].name}/>
-          <img src={require(`../../assets/projects/${myProjects[3].name}`)} alt="testing" key={myProjects[3].name}/>
-          <img src={require(`../../assets/projects/${myProjects[4].name}`)} alt="testing" key={myProjects[4].name}/>
-          <img src={require(`../../assets/projects/${myProjects[5].name}`)} alt="testing" key={myProjects[5].name}/>
-          <img src={require(`../../assets/projects/${myProjects[6].name}`)} alt="testing" key={myProjects[6].name}/>
+        <div className="container mx-auto grid grid-cols-2 space-y-4 space-x-3">
+          <img src={require(`../../assets/projects/${myProjects[0].name}`)} alt="testing" key={myProjects[0].name} 
+            className="rounded w-3/5 space-y-4 space-x-3" />
+          <img src={require(`../../assets/projects/${myProjects[1].name}`)} alt="testing" key={myProjects[1].name}
+            className="rounded w-3/5" />
+          <img src={require(`../../assets/projects/${myProjects[2].name}`)} alt="testing" key={myProjects[2].name}
+            className="rounded w-3/5" />
+          <img src={require(`../../assets/projects/${myProjects[3].name}`)} alt="testing" key={myProjects[3].name}
+            className="rounded w-3/5" />
+          <img src={require(`../../assets/projects/${myProjects[4].name}`)} alt="testing" key={myProjects[4].name}
+            className="rounded w-3/5" />
+          <img src={require(`../../assets/projects/${myProjects[5].name}`)} alt="testing" key={myProjects[5].name}
+            className="rounded w-3/5" />
+          <img src={require(`../../assets/projects/${myProjects[6].name}`)} alt="testing" key={myProjects[6].name}
+            className="rounded w-3/5" />
         </div>
       )
 
