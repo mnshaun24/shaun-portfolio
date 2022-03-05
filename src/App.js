@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Page from "./components/Page";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [pages] = useState([
@@ -28,3 +27,4 @@ function App() {
 }
 
 export default App;
+

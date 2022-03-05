@@ -4,7 +4,7 @@ function Home() {
 
   return (
       <section>
-          This is homepage
+        <p>This is homepage</p>
       </section>
   );
 }

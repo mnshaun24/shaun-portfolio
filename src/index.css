@@ -1,28 +1,13 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
   --primary: #051622;
   --secondary: #1BA098;
   --tertiary: #DEB992;
   --light: #fafafa;
-}
+} */
 
-body {
-  margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
-#header {
-  background: var(--primary);
-  height: 85px;
-}
-
-.nav-item {
-  font-size: 210%;
-  color: var(--secondary);
-}
