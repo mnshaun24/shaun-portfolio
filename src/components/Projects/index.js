@@ -1,9 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
-import Peak from "../ProjectList";
-=======
 import ProjectUse from "../ProjectList";
->>>>>>> framework/tailwind
 
 function Projects() {
     const myProjects = [
@@ -20,7 +16,8 @@ function Projects() {
           {
             image: "../../assets/projects/weather-for-you.jpg",
             name: "weather-for-you.jpg",
-            description: "Weather forecast app"
+            description: "Weather forecast app",
+            link: "https://github.com/mnshaun24/weather-for-you"
           },
           {
             image: "../../assets/projects/biz-notes.jpg",

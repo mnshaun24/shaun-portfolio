@@ -2,27 +2,17 @@ import React from "react";
 
 function ProjectUse(props) {
 
-<<<<<<< HEAD
-    return (        
-        <section>
-            <div key={props.project.name}>
-                <img
-                src={require(`../../assets/projects/${props.project.name}`)}
-                className="project-bg" alt={props.project.name}
-                />
-            </div>
-            <p>{props.project.description}</p>
-        </section>
-    );
-}
-
-export default Peak;
-=======
     return (
-        <div key={props.project.name}>
+        <div key={props.project.name} className="project__image--container">
+            <a href="https://www.google.com" className="project__image--overlay">
+                <h5>
+                    We are awesome
+                </h5>
+                </a>
+
                 <img
                 src={require(`../../assets/projects/${props.project.name}`)}
-                alt={props.project.name}
+                alt={props.project.name} className="project__image"
                 />
             </div>
     )}
@@ -46,4 +36,3 @@ export default Peak;
 // }
 
 export default ProjectUse;
->>>>>>> framework/tailwind
