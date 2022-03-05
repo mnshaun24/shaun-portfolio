@@ -1,11 +1,11 @@
 import React from "react";
-import ProjectUse from "../ProjectList";
+// import ProjectUse from "../ProjectList";
 
 function Projects() {
     const myProjects = [
         {
-            image: "../../assets/projects/beyond-the-peak.png",
-            name: "beyond-the-peak.png",
+            image: "../../assets/projects/beyond-the-peak.jpg",
+            name: "beyond-the-peak.jpg",
             description: "Random drink generator"
           },
           {
@@ -14,9 +14,9 @@ function Projects() {
             description: "Simple tech blog"
           },
           {
-            image: "../../assets/projects/memeify.png",
-            name: "memeify.png",
-            description: "Meme generator"
+            image: "../../assets/projects/weather-for-you.jpg",
+            name: "weather-for-you.jpg",
+            description: "Weather forecast app"
           },
           {
             image: "../../assets/projects/biz-notes.jpg",
@@ -34,21 +34,35 @@ function Projects() {
             description: "Daily planner used for organization"
           },
           {
-            image: "../../assets/projects/run-buddy.png",
-            name: "run-buddy.png",
+            image: "../../assets/projects/run-buddy.jpg",
+            name: "run-buddy.jpg",
             description: "Front-end example"
           }
     ]
 
-    return (
-        myProjects.map(eachProject => {
-            return (
-                <section>
-                    <ProjectUse project={eachProject}/>
-                </section>
-            )
-        })
-    )
+      return (
+        <div className="container grid grid-cols-2">
+          <img src={require(`../../assets/projects/${myProjects[0].name}`)} alt="testing" key={myProjects[0].name} />
+          <img src={require(`../../assets/projects/${myProjects[1].name}`)} alt="testing" key={myProjects[1].name}/>
+          <img src={require(`../../assets/projects/${myProjects[2].name}`)} alt="testing" key={myProjects[2].name}/>
+          <img src={require(`../../assets/projects/${myProjects[3].name}`)} alt="testing" key={myProjects[3].name}/>
+          <img src={require(`../../assets/projects/${myProjects[4].name}`)} alt="testing" key={myProjects[4].name}/>
+          <img src={require(`../../assets/projects/${myProjects[5].name}`)} alt="testing" key={myProjects[5].name}/>
+          <img src={require(`../../assets/projects/${myProjects[6].name}`)} alt="testing" key={myProjects[6].name}/>
+        </div>
+      )
+
+    // return (
+    //     myProjects.map(eachProject => {
+    //         return (
+    //             <section className="flex">
+    //               {myProjects.map(eachProject => {
+    //                 return <ProjectUse project={eachProject} />
+    //               })}                 
+    //             </section>
+    //         )
+    //     })
+    // )
     
 }
 
