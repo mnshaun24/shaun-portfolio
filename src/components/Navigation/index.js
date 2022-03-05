@@ -7,7 +7,7 @@ function Navi({ navLinks, setCurrentPage }) {
           md:font-normal md:content-center flex justify-between">
           {navLinks.map((link) => {
             return (
-                <span className="md:hover:font-semibold pr-5" eventKey={link} onClick={() => setCurrentPage(link)}>{link}</span>
+                <span className="md:hover:font-semibold pr-5 cursor-pointer" eventKey={link} onClick={() => setCurrentPage(link)}>{link}</span>
             );
           })}
         </div>

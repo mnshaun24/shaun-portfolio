@@ -6,12 +6,14 @@ function Projects() {
         {
             image: "../../assets/projects/beyond-the-peak.jpg",
             name: "beyond-the-peak.jpg",
-            description: "Random drink generator"
+            description: "Random drink generator",
+            link: "https://github.com/glanctot/beyond-the-peak"
           },
           {
             image: "../../assets/projects/just-tech-it.jpg",
             name: "just-tech-it.jpg",
-            description: "Simple tech blog"
+            description: "Simple tech blog",
+            link: "https://github.com/mnshaun24/just-tech-it"
           },
           {
             image: "../../assets/projects/weather-for-you.jpg",
@@ -22,22 +24,26 @@ function Projects() {
           {
             image: "../../assets/projects/biz-notes.jpg",
             name: "biz-notes.jpg",
-            description: "Note taker in readme format"
+            description: "Note taker in readme format",
+            link: "https://github.com/mnshaun24/biz-notes"
           },
           {
             image: "../../assets/projects/readme.jpg",
             name: "readme.jpg",
-            description: "Readme generator for coding projects"
+            description: "Readme generator for coding projects",
+            link: "https://github.com/mnshaun24/ez-reader"
           },
           {
             image: "../../assets/projects/scheduler.jpg",
             name: "scheduler.jpg",
-            description: "Daily planner used for organization"
+            description: "Daily planner used for organization",
+            link: "https://github.com/mnshaun24/make-a-date-daily-planner"
           },
           {
             image: "../../assets/projects/run-buddy.jpg",
             name: "run-buddy.jpg",
-            description: "Front-end example"
+            description: "Front-end example",
+            link: "https://github.com/mnshaun24/run-buddy"
           }
     ]
 
@@ -61,7 +67,7 @@ function Projects() {
       // )
 
     return (
-                <section className="grid grid-cols-2 w-full rounded space-y-5 space-x-4">
+                <section className="grid grid-cols-2 w-full rounded space-y-5 space-x-4 w-3/5">
                   {myProjects.map(eachProject => {
                     return <ProjectUse project={eachProject} />
                   })}                 
