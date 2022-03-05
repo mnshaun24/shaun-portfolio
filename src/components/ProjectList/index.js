@@ -1,15 +1,15 @@
-// import React from "react";
+import React from "react";
 
-// function ProjectUse(props) {
+function ProjectUse(props) {
 
-//     return (
-//         <div key={props.project.name} className="flex">
-//                 <img
-//                 src={require(`../../assets/projects/${props.project.name}`)}
-//                 alt={props.project.name} className="w-full"
-//                 />
-//             </div>
-//     )
+    return (
+        <div key={props.project.name}>
+                <img
+                src={require(`../../assets/projects/${props.project.name}`)}
+                alt={props.project.name}
+                />
+            </div>
+    )}
 
 
 
@@ -29,4 +29,4 @@
 //     // );
 // }
 
-// export default ProjectUse;
+export default ProjectUse;
