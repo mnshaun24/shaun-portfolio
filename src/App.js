@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Page from "./components/Page";
+import Footer from "./components/Footer"
 
 function App() {
   const [pages] = useState([
@@ -16,12 +17,12 @@ function App() {
 
   
   return (
-    <div>
+    <div className='page__container'>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} pages={pages} />
       <main>
       <Page currentPage={currentPage} />
       </main>
-
+      <Footer />
     </div>
   );
 }

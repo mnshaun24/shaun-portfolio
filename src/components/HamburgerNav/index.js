@@ -1,0 +1,17 @@
+import React from "react";
+
+function HamNavi({ navLinks, setCurrentPage }) {
+
+  return (
+        <div className="text-red-500 bg-primary md:pr-5 md:text-4xl md:space-x-4 h-12 md:h-20 md:flex md:flex-wrap md:shrink-0 md:justify-end
+          md:font-normal md:content-center flex justify-between">
+          {navLinks.map((link) => {
+            return (
+                <span className="md:hover:font-semibold pr-5 cursor-pointer" eventKey={link} onClick={() => setCurrentPage(link)}>{link}</span>
+            );
+          })}
+        </div>
+  );
+}
+
+export default HamNavi;

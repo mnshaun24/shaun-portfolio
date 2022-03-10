@@ -67,7 +67,7 @@ function Projects() {
       // )
 
     return (
-                <section className="grid grid-cols-2 w-full rounded space-y-5 space-x-4 w-3/5">
+                <section className="grid grid-cols-2 gap-8">
                   {myProjects.map(eachProject => {
                     return <ProjectUse project={eachProject} />
                   })}                 

@@ -3,7 +3,7 @@ import React from "react";
 function ProjectUse(props) {
 
     return (
-        <div key={props.project.name} className="project__image--container">
+        <div key={props.project.name} className="project__image--container container my-4">
             <a href="https://www.google.com" className="project__image--overlay">
                 <h5>
                     We are awesome
@@ -12,7 +12,7 @@ function ProjectUse(props) {
 
                 <img
                 src={require(`../../assets/projects/${props.project.name}`)}
-                alt={props.project.name} className="project__image"
+                alt={props.project.name} className="project__image rounded-lg"
                 />
             </div>
     )}
