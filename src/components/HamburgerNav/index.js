@@ -1,16 +1,25 @@
 import React from "react";
+import { scaleRotate as Menu } from "react-burger-menu";
 
 function HamNavi({ navLinks, setCurrentPage }) {
-
   return (
-        <div className="text-red-500 bg-primary md:pr-5 md:text-4xl md:space-x-4 h-12 md:h-20 md:flex md:flex-wrap md:shrink-0 md:justify-end
-          md:font-normal md:content-center flex justify-between">
-          {navLinks.map((link) => {
-            return (
-                <span className="md:hover:font-semibold pr-5 cursor-pointer" eventKey={link} onClick={() => setCurrentPage(link)}>{link}</span>
-            );
-          })}
-        </div>
+    <div id="outer-container" className="bg-primary h-32">
+    <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container"}>
+      <div id="page-wrap">
+      
+        {navLinks.map((link) => {
+          return (
+            <div
+              key={link}
+              onClick={() => setCurrentPage(link)}
+            >
+              {link}
+            </div>
+          );
+        })}
+      </div>
+    </Menu>
+    </div>
   );
 }
 

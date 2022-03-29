@@ -9,7 +9,6 @@ function Header(props) {
     React.useEffect(() => {
         function handleResize() {
            const pageWidth = window.innerWidth;
-           console.log(pageWidth)
             if (pageWidth <= 900) {
                setIsHamNav(true);
             } else {
