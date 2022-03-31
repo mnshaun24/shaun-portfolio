@@ -83,7 +83,7 @@ function Projects() {
       // )
 
     return (
-                <section className="grid grid-cols-2 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   {myProjects.map(eachProject => {
                     return <ProjectUse project={eachProject} />
                   })}                 
