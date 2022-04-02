@@ -9,8 +9,7 @@ function App() {
     "Home",
     "About",
     "Projects",
-    "Resume",
-    "Contact"
+    "Skills",
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);

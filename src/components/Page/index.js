@@ -1,8 +1,7 @@
 import React from "react";
 import About from "../About";
 import Projects from "../Projects";
-import Resume from "../Resume";
-import Contact from "../Contact";
+import Skills from "../Skills";
 import Home from "../Home";
 
 function Page(props) {
@@ -16,10 +15,8 @@ function Page(props) {
               return <About />
             case "Projects":
               return <Projects />
-            case "Resume":
-                return <Resume />
-            case "Contact":
-                return <Contact />
+            case "Skills":
+                return <Skills />
             default:
               return <Home />
           }

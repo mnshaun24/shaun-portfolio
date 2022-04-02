@@ -6,7 +6,7 @@ function ProjectUse(props) {
   return (
     <div
       key={props.project.name}
-      className="project__image--container container my-4 max-w-md lg:ml-10 border-dotted border-2 border-slate-400"
+      className="project__image--container container my-4 max-w-md lg:ml-10"
     >
       <a
         href={props.project.liveLink}
