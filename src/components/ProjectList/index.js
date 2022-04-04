@@ -20,7 +20,7 @@ function ProjectUse(props) {
         <br />
         <a href={props.project.gitLink} target="_blank" rel="noreferrer">
           <FontAwesomeIcon
-            className="fa-2xl transition linear delay-100 hover:scale-125 hover:animate-spin 1s"
+            className="fa-2xl transition linear delay-100 hover:scale-125 hover:animate-spin 1s pl-[5%]"
             icon={faGithub}
           ></FontAwesomeIcon>
         </a>
