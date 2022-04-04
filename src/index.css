@@ -52,6 +52,22 @@
 
 }
 
+#skills-main-page {
+  height: calc(100vh - 3rem - 6rem);
+}
+
+.skills-container {
+  border:  #1BA098 solid 5px;
+  margin: 10px;
+  min-width: 90px;
+  max-width: 90px;
+  text-align: center;
+  padding: 15px;
+  margin-top: 7%;
+  border-radius: 9999px;
+  height: max-content;
+}
+
 
 /* This CSS button was found on https://getcssscan.com/css-buttons-examples I have modified the original to fit my portfolio */
 .button {

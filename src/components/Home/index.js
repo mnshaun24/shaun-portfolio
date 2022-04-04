@@ -23,8 +23,8 @@ function Home() {
         </p>
       </div>
       <div className="flex flex-col max-w-sm md:flex-row pt-[4%] pl-[12%] sm:pl-[20%] md:pl-[10%] md:space-x-6 space-y-4 md:space-y-0">
-        <button className="button">
-          <span className="text">Hire Me</span>
+        <button className="button" onClick={() => window.location = "mailto:shaun.sticka@outlook.com"}>
+          <span className="text">Contact Me</span>
         </button>
 
         <span>
