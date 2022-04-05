@@ -1,6 +1,6 @@
 import React from "react";
 import mainPic from "../../assets/personal/orange-face-small.jpg";
-import resumeFile from "../../assets/personal/resume.pdf";
+import resumeFile from "../../assets/resume/shaun-resume.pdf";
 
 function Home() {
   return (
