@@ -1,3 +1,7 @@
-** Description
+** Description **
 
-This is Shaun's portfolio page and will consist of my projects to show potential employers. It is currently under construction, with a build EPA of early April.
+Updated portfolio built with React.
+
+** Note **
+
+Since Heroku closed their free hosting, I have yet to merge projects hosted there to another site. This is a TBD item on my list.
