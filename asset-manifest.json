@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/shaun-portfolio-new/static/css/main.9fe18e49.css",
-    "main.js": "/shaun-portfolio-new/static/js/main.bfb5267a.js",
-    "static/media/orange-face-small.jpg": "/shaun-portfolio-new/static/media/orange-face-small.edd5d4625623d9faafa8.jpg",
-    "static/media/readme.jpg": "/shaun-portfolio-new/static/media/readme.a885e721a6a46091331c.jpg",
-    "static/media/cover-image.jpg": "/shaun-portfolio-new/static/media/cover-image.0e75c1c92005f83debd0.jpg",
-    "static/media/beyond-the-peak.jpg": "/shaun-portfolio-new/static/media/beyond-the-peak.8207dbdc3f4dedabff96.jpg",
-    "static/media/weather-for-you.jpg": "/shaun-portfolio-new/static/media/weather-for-you.796be540865b1e85cbcf.jpg",
-    "static/media/just-tech-it.jpg": "/shaun-portfolio-new/static/media/just-tech-it.40d9c125fae98300131b.jpg",
-    "static/media/shaun-resume.pdf": "/shaun-portfolio-new/static/media/shaun-resume.5bc27c262b0c88809678.pdf",
-    "static/media/scheduler.jpg": "/shaun-portfolio-new/static/media/scheduler.0dc6f3203490d4fcb9c3.jpg",
-    "static/media/biz-notes.jpg": "/shaun-portfolio-new/static/media/biz-notes.21c61155f5b359eb5e6a.jpg",
-    "static/media/dinder.png": "/shaun-portfolio-new/static/media/dinder.2b6eff7162739a7b9808.png",
-    "index.html": "/shaun-portfolio-new/index.html",
-    "main.9fe18e49.css.map": "/shaun-portfolio-new/static/css/main.9fe18e49.css.map",
-    "main.bfb5267a.js.map": "/shaun-portfolio-new/static/js/main.bfb5267a.js.map"
+    "main.css": "/shaun-portfolio-full/static/css/main.9fe18e49.css",
+    "main.js": "/shaun-portfolio-full/static/js/main.f359f19d.js",
+    "static/media/orange-face-small.jpg": "/shaun-portfolio-full/static/media/orange-face-small.edd5d4625623d9faafa8.jpg",
+    "static/media/readme.jpg": "/shaun-portfolio-full/static/media/readme.a885e721a6a46091331c.jpg",
+    "static/media/cover-image.jpg": "/shaun-portfolio-full/static/media/cover-image.0e75c1c92005f83debd0.jpg",
+    "static/media/beyond-the-peak.jpg": "/shaun-portfolio-full/static/media/beyond-the-peak.8207dbdc3f4dedabff96.jpg",
+    "static/media/weather-for-you.jpg": "/shaun-portfolio-full/static/media/weather-for-you.796be540865b1e85cbcf.jpg",
+    "static/media/just-tech-it.jpg": "/shaun-portfolio-full/static/media/just-tech-it.40d9c125fae98300131b.jpg",
+    "static/media/shaun-resume.pdf": "/shaun-portfolio-full/static/media/shaun-resume.5bc27c262b0c88809678.pdf",
+    "static/media/scheduler.jpg": "/shaun-portfolio-full/static/media/scheduler.0dc6f3203490d4fcb9c3.jpg",
+    "static/media/biz-notes.jpg": "/shaun-portfolio-full/static/media/biz-notes.21c61155f5b359eb5e6a.jpg",
+    "static/media/dinder.png": "/shaun-portfolio-full/static/media/dinder.2b6eff7162739a7b9808.png",
+    "index.html": "/shaun-portfolio-full/index.html",
+    "main.9fe18e49.css.map": "/shaun-portfolio-full/static/css/main.9fe18e49.css.map",
+    "main.f359f19d.js.map": "/shaun-portfolio-full/static/js/main.f359f19d.js.map"
   },
   "entrypoints": [
     "static/css/main.9fe18e49.css",
-    "static/js/main.bfb5267a.js"
+    "static/js/main.f359f19d.js"
   ]
 }
