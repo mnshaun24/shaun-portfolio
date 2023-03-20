@@ -4,6 +4,14 @@ import ProjectUse from "../ProjectList";
 
 function Projects() {
     const myProjects = [
+      {
+        image: "../../assets/projects/networking-social.jpg",
+        name: "networking-social.jpg",
+        description: "Currently in development. Social app for introverts to practice networking and gain helpful tips. Based on my own growth experiences. Feel free to follow along from the GitHub link to track progress.",
+        depth: "MERN, Redux, JWT, NoSQL, MongoDB",
+        liveLink: "https://github.com/mnshaun24/intro-network",
+        gitLink: "https://github.com/mnshaun24/intro-network"
+      },
         // {
         //     image: "../../assets/projects/beyond-the-peak.jpg",
         //     name: "beyond-the-peak.jpg",
@@ -41,17 +49,17 @@ function Projects() {
             name: "biz-notes.jpg",
             description: "For business professionals who want an easy, digestable note taker with a clean interface",
             depth: "Full-Stack",
-            liveLink: "",
+            liveLink: "https://github.com/mnshaun24/biz-notes",
             gitLink: "https://github.com/mnshaun24/biz-notes"
           },
-          {
-            image: "../../assets/projects/readme.jpg",
-            name: "readme.jpg",
-            description: "Generates ReadMe files easily for projects. All functionality is through the terminal and ReadMe is auto generated after answering the prompts.",
-            depth: "Back-End",
-            liveLink: "https://biz-notes.herokuapp.com/",
-            gitLink: "https://github.com/mnshaun24/ez-reader"
-          },
+          // {
+          //   image: "../../assets/projects/readme.jpg",
+          //   name: "readme.jpg",
+          //   description: "Generates ReadMe files easily for projects. All functionality is through the terminal and ReadMe is auto generated after answering the prompts.",
+          //   depth: "Back-End",
+          //   liveLink: "https://biz-notes.herokuapp.com/",
+          //   gitLink: "https://github.com/mnshaun24/ez-reader"
+          // },
           {
             image: "../../assets/projects/scheduler.jpg",
             name: "scheduler.jpg",
