@@ -17,7 +17,7 @@ function Projects() {
             name: "dinder.png",
             description: "Designed for the person who wants a dog but just has no clue what kind of dog or where to start learning. A true entry-level app into the world of dog-ownership. It's like Tinder... for people seeking a new fur-friend.",
             depth: "MERN Stack",
-            liveLink: "https://dinder-dog.herokuapp.com/",
+            liveLink: "https://doggy-days-frontend.onrender.com",
             gitLink: "https://github.com/mnshaun24/doggy-days"
           },
           {
