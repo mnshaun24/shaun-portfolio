@@ -4,14 +4,14 @@ import ProjectUse from "../ProjectList";
 
 function Projects() {
     const myProjects = [
-        {
-            image: "../../assets/projects/beyond-the-peak.jpg",
-            name: "beyond-the-peak.jpg",
-            description: "Going out with the bois but tired of the same-old-same-old? This app generates a random drink, guaranteed to add some random fun to your evening. Level up by adding extra randomness if you dare.",
-            depth: "Full-Stack with MySQL database",
-            liveLink: "https://pacific-journey-17528.herokuapp.com/",
-            gitLink: "https://github.com/glanctot/beyond-the-peak"
-          },
+        // {
+        //     image: "../../assets/projects/beyond-the-peak.jpg",
+        //     name: "beyond-the-peak.jpg",
+        //     description: "Going out with the bois but tired of the same-old-same-old? This app generates a random drink, guaranteed to add some random fun to your evening. Level up by adding extra randomness if you dare.",
+        //     depth: "Full-Stack with MySQL database",
+        //     liveLink: "https://pacific-journey-17528.herokuapp.com/",
+        //     gitLink: "https://github.com/glanctot/beyond-the-peak"
+        //   },
           {
             image: "../../assets/projects/dinder.png",
             name: "dinder.png",
@@ -20,14 +20,14 @@ function Projects() {
             liveLink: "https://doggy-days-frontend.onrender.com",
             gitLink: "https://github.com/mnshaun24/doggy-days"
           },
-          {
-            image: "../../assets/projects/just-tech-it.jpg",
-            name: "just-tech-it.jpg",
-            description: "A tech blog for people to share information and resources related to the tech industry.",
-            depth: "Full-Stack",
-            liveLink: "https://just-tech-it.herokuapp.com/",
-            gitLink: "https://github.com/mnshaun24/just-tech-it"
-          },
+          // {
+          //   image: "../../assets/projects/just-tech-it.jpg",
+          //   name: "just-tech-it.jpg",
+          //   description: "A tech blog for people to share information and resources related to the tech industry.",
+          //   depth: "Full-Stack",
+          //   liveLink: "https://just-tech-it.herokuapp.com/",
+          //   gitLink: "https://github.com/mnshaun24/just-tech-it"
+          // },
           {
             image: "../../assets/projects/weather-for-you.jpg",
             name: "weather-for-you.jpg",
